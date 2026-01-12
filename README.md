@@ -3,6 +3,9 @@ Requirements and dependencies
 - Raspberry Pi Zero 2W
 - Raspberry Pi OS Lite (64-bit)
 - Raspotify
+- Spotipy
+- pygame
+- NumPy
 
 First steps:
 
@@ -31,3 +34,21 @@ First steps:
 It is needed to install [Raspotify](https://github.com/dtcooper/raspotify) so the Raspberry can play music itself as a Spotify Connect device.
 
 `sudo apt-get -y install curl && curl -sL https://dtcooper.github.io/raspotify/install.sh | sh`
+
+### Spotipy
+
+Spotify API Python library: [Spotipy](https://spotipy.readthedocs.io/)
+
+pip3 install spotipy --break-system-packages
+
+### pygame
+
+Open-source Python library for creating graphics: [pygame](https://www.pygame.org/)
+
+sudo apt install python3-pygame -y
+
+### NumPy
+
+Python library for mathematical operations. [Numpy](https://numpy.org/) is used to draw the albums cover in green pixel art.
+
+sudo apt install python3-numpy
