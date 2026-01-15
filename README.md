@@ -61,3 +61,15 @@ VLC Player with Python library to reproduce online radio.
 `sudo apt-get install vlc`
 
 `sudo apt install python-vlc`
+
+### Bluetooth
+
+`sudo apt-get install pulseaudio pulseaudio-module-bluetooth`
+
+`sudo usermod -a -G bluetooth [user]`
+
+`pulseaudio -k`
+
+`pulseaudio --start`
+
+`sudo systemctl restart bluetooth`
