@@ -60,4 +60,4 @@ VLC Player with Python library to reproduce online radio.
 
 `sudo apt-get install vlc`
 
-`pip3 install python-vlc`
+`sudo apt install python-vlc`
