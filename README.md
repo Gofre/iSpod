@@ -6,6 +6,7 @@ Requirements and dependencies
 - Spotipy
 - pygame
 - NumPy
+- VLC
 
 First steps:
 
@@ -39,16 +40,23 @@ It is needed to install [Raspotify](https://github.com/dtcooper/raspotify) so th
 
 Spotify API Python library: [Spotipy](https://spotipy.readthedocs.io/)
 
-pip3 install spotipy --break-system-packages
+`pip3 install spotipy --break-system-packages`
 
 ### pygame
 
 Open-source Python library for creating graphics: [pygame](https://www.pygame.org/)
 
-sudo apt install python3-pygame -y
+`sudo apt install python3-pygame -y`
 
 ### NumPy
 
 Python library for mathematical operations. [Numpy](https://numpy.org/) is used to draw the albums cover in green pixel art.
 
-sudo apt install python3-numpy
+`sudo apt install python3-numpy`
+
+### VLC
+
+VLC Player with Python library to reproduce online radio.
+
+`sudo apt-get install vlc`
+`pip3 install python-vlc`
