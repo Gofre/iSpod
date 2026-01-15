@@ -59,4 +59,5 @@ Python library for mathematical operations. [Numpy](https://numpy.org/) is used 
 VLC Player with Python library to reproduce online radio.
 
 `sudo apt-get install vlc`
+
 `pip3 install python-vlc`
