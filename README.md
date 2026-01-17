@@ -6,7 +6,6 @@ Requirements and dependencies
 - Spotipy
 - pygame
 - NumPy
-- VLC
 
 First steps:
 
@@ -53,14 +52,6 @@ Open-source Python library for creating graphics: [pygame](https://www.pygame.or
 Python library for mathematical operations. [Numpy](https://numpy.org/) is used to draw the albums cover in green pixel art.
 
 `sudo apt install python3-numpy`
-
-### VLC
-
-VLC Player with Python library to reproduce online radio.
-
-`sudo apt-get install vlc`
-
-`sudo apt install python-vlc`
 
 ### Bluetooth
 
